@@ -8,6 +8,12 @@ class Formatter {
 
 
  }
+ static sanitize(string){
+    
+    return string.replace(/[^A-Za-z0-9- ']+/g,'')
+
+  
+}
 
   
   static titleize(string){
@@ -26,10 +32,6 @@ class Formatter {
 
   
   
-  static sanitize(string){
-    
-    return string.replace(/[^A-Za-z0-9- ']+/g,'')
-
   
 }
-}
+console.log(Formatter.sanitize("heba-447"))
