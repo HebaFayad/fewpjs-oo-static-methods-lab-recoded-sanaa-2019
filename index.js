@@ -31,4 +31,4 @@ class Formatter {
   
   
 }
-console.log(Formatter.sanitize("heba-447"))
+console.log(Formatter.sanitize("56634646"))
